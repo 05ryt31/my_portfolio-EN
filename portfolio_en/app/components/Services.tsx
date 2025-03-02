@@ -14,13 +14,13 @@ export default function Services() {
     {
       icon: <Server className="w-12 h-12 text-green-500" />,
       title: "Backend Development",
-      description: "Robust and scalable server-side solutions using Node.js, Express, and Fastify.",
+      description: "Robust and scalable server-side solutions using Python, and Django.",
     },
     {
       icon: <Code className="w-12 h-12 text-purple-500" />,
       title: "API Development",
       description:
-        "RESTful and GraphQL API design and implementation for seamless data flow between client and server.",
+        "RESTful and tRPC API design and implementation for seamless data flow between client and server.",
     },
     {
       icon: <Smartphone className="w-12 h-12 text-yellow-500" />,
