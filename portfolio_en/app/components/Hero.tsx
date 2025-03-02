@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { GitlabIcon as GitHub, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
 import { motion } from "framer-motion"
 
 const CodePattern = () => (
@@ -46,30 +46,30 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-              Usman Zafar
+              Ryuto Kawabata
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300">MERN Stack Developer</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300">Full Stack Developer</h2>
             <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
               Crafting exceptional digital experiences with modern web technologies. Specialized in building scalable
-              full-stack applications using MongoDB, Express.js, React, and Node.js.
+              full-stack applications using Postgres, Prisma, TypeScript, React, and Next.js.
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
-                href="#"
+                href="https://github.com/05ryt31"
                 className="p-3 rounded-full bg-gray-800/80 hover:bg-gray-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
-                aria-label="GitHub Profile"
+                aria-label="Github Profile"
               >
-                <GitHub className="w-6 h-6 text-gray-300" />
+                <Github className="w-6 h-6 text-gray-300" />
               </a>
               <a
-                href="#"
+                href="https://linkedin.com/in/ryuto-kawabata-470997291/"
                 className="p-3 rounded-full bg-gray-800/80 hover:bg-gray-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="LinkedIn Profile"
               >
                 <Linkedin className="w-6 h-6 text-gray-300" />
               </a>
               <a
-                href="mailto:musmanzafar53@gmail.com"
+                href="kawabataryuto8@gmail.com"
                 className="p-3 rounded-full bg-gray-800/80 hover:bg-gray-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="Email Contact"
               >
@@ -98,8 +98,8 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl transform -rotate-6 opacity-50"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0812.jpg-jQSxWaycmtpBR7IUnsPV8C8L3vlrQ2.jpeg"
-                  alt="Usman Zafar"
+                  src="public/me.jpg"
+                  alt="Ryuto Kawabata"
                   fill
                   className="object-cover"
                   priority

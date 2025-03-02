@@ -76,18 +76,18 @@ export default function Contact() {
                   className="flex items-center text-gray-300 hover:text-blue-400 transition-colors duration-300"
                 >
                   <Mail className="w-6 h-6 mr-3 text-blue-500" />
-                  musmanzafar53@gmail.com
+                  kawabataryuto8@gmail.com
                 </a>
                 <a
                   href="tel:+923055356766"
                   className="flex items-center text-gray-300 hover:text-blue-400 transition-colors duration-300"
                 >
                   <Phone className="w-6 h-6 mr-3 text-blue-500" />
-                  +92-305-5356766
+                  925-457-0019
                 </a>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-6 h-6 mr-3 text-blue-500" />
-                  Lahore, Pakistan
+                  Pleasant Hill, CA, United States
                 </div>
               </div>
             </div>

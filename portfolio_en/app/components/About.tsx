@@ -6,10 +6,10 @@ import Image from "next/image"
 
 export default function About() {
   const skills = [
-    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js, Redux" },
-    { icon: <Server className="w-8 h-8 text-green-500" />, title: "Backend", description: "Node.js, Express, Fastify" },
-    { icon: <Database className="w-8 h-8 text-purple-500" />, title: "Database", description: "MongoDB, Mongoose" },
-    { icon: <Zap className="w-8 h-8 text-yellow-500" />, title: "Performance", description: "Optimization, Caching" },
+    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js, TypeScript" },
+    { icon: <Server className="w-8 h-8 text-green-500" />, title: "Backend", description: "Node.js, Python, Django" },
+    { icon: <Database className="w-8 h-8 text-purple-500" />, title: "Database", description: "Postgres, Prisma" },
+    { icon: <Zap className="w-8 h-8 text-yellow-500" />, title: "Other", description: "RAG, LangChain, Gemini API" },
   ]
 
   return (
