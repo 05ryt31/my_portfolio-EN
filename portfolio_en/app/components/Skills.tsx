@@ -57,7 +57,7 @@ const skills = [
   {
     icon: Cpu,
     name: "API Development",
-    tech: "REST, tRPC",
+    tech: "REST, fastAPI, tRPC",
     description: "Designing and implementing efficient APIs for seamless data communication.",
     color: "text-red-500",
   },
