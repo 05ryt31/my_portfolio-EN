@@ -72,7 +72,7 @@ export default function Contact() {
               <h3 className="text-2xl font-semibold mb-6 text-white">Contact Information</h3>
               <div className="space-y-6">
                 <a
-                  href="mailto:musmanzafar53@gmail.com"
+                  href="kawabataryuto8@gmail.com"
                   className="flex items-center text-gray-300 hover:text-blue-400 transition-colors duration-300"
                 >
                   <Mail className="w-6 h-6 mr-3 text-blue-500" />
