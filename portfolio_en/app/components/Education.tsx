@@ -13,8 +13,8 @@ export default function Education() {
       period: "2023 - 2025",
       achievements: [
         "Graduated with 3.96 GPA",
-        "Specialized in Web Technologies and Artificial Intelligence",
-        "Completed capstone project on 'Intelligent Web Application for Healthcare'",
+        "Learned a basic concept of programming language and OOP using C++",
+        "I've Taken Data structure and algorithm, Assembly language, and Java class",
       ],
     },
     {
@@ -22,9 +22,9 @@ export default function Education() {
       institution: "San Jose State University",
       period: "2025~",
       achievements: [
-        "will start a new journey from August",
+        "Will start a new journey Fall 2025",
         "Specialized in Web Technologies and Artificial Intelligence",
-        "Seeking internship for full stack or backend engineer",
+        "Seeking internship for full-stack or back-end engineer",
       ],
     },
   ]
