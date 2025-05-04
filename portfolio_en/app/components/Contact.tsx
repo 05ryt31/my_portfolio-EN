@@ -87,7 +87,7 @@ export default function Contact() {
                 </a>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-6 h-6 mr-3 text-blue-500" />
-                  Pleasant Hill, CA, United States
+                  Hayword, CA, United States
                 </div>
               </div>
             </div>
