@@ -9,7 +9,7 @@ import AnimatedSectionHeader from "./AnimatedSectionHeader"
 // サンプル画像 - 実際の画像に置き換えてください
 const images = [
   {
-    src: "/placeholder.svg?height=600&width=800",
+    src: "/office.jpg?height=600&width=800",
     alt: "Portfolio Image 1",
     caption: "Project Showcase",
   },
